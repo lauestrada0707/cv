@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    background-image: linear-gradient(#85717b, #b1afaf);
+    height: 122vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+img{
+    width: 100%;
+    height: 180px;   
+}
+*{
+    margin: 0px; 
+    padding: 0px; 
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    background-color: white;
+    height: auto;
+    width: 650px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+} 
+.left{
+    background-color:rosybrown;
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.right{
+    width: 450px;
+    float: left;
+}  
+.profile-img{
+    height: 180px;
+    width: 180px;
+    background-color: rgb(218, 192, 192);
+    border-radius: 50%;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    border: 10px solid rgb(218, 192, 192);
+    box-shadow: 6px 7px 9px 5px rosybrown;
+}
+.profile-img img{
+    width: 100%;
+    border-radius: 50%;    
+}
+.box-1{
+    position:relative;
+}
+.heading{
+    background-color: #4d4d4d;
+    padding: 10px;
+    color: rosybrown;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: 230px;
+}
+.heading::after{
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #5a5959;
+    left: 191px;
+    top: 26px;
+    transform: rotate(56deg);
+    z-index: -1;
+}
+.p1{
+    padding: 9px 10px;
+    font-size: 8px;
+}
+.icons1{
+    font-size: 10px !important;
+    padding-right: 10px !important;
+    vertical-align: sub;
+}
+.skill-container{
+    width: 40%;
+    background-color: #4d4d4d;
+    margin: 0px 10px;
+}
+.skill{
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    }
+.español{
+    width: 98%;
+    background-color: white;
+}
+.ingles{
+    width: 60%;
+    background-color: white;
+}
+.icons2{
+    padding: 18px 10px;
+}
+.name-div{
+    padding: 86px 0px 60px 55px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.name-div h1{
+    margin-bottom: 10px;
+}
+.box-2{
+    padding: 0px 30px;
+    margin-top: 30px;
+}
+.p2{
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 18px;
+    margin-top: 5px;
+    text-align: justify;
+}
+h4{
+    font-size: 16px;
+    margin-bottom: 5px;
+
+}
+.icons3{
+    vertical-align: bottom;
+    font-size: 21px !important;
+    color: #4d4d4d;
+}
+.p3{
+    font-size: 13px;
+    word-spacing: 1px;
+    margin-top: 0px;
+    margin-top: 3px;
+}
+.p3 span{
+    color: #85717b;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        background-color:#b1afaf;
+    }
+    }
+
